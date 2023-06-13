@@ -1,4 +1,4 @@
-    function XHR() {
+    function XHRGET() {
         const Ajax = new XMLHttpRequest();
         var items = GetReferredIds();
         Ajax.open('GET', '/Secretariat/SecretariatDocuments/GetAttachZipFile?ReferredID=' + items.join(','));
